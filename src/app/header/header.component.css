@@ -1,0 +1,134 @@
+#header {
+  background: url('../../assets/images/bg-header.jpg') repeat-x left top;
+  border-top: 2px solid #0b9398;
+}
+
+#header div:first-child {
+  background: url('../../assets/images/light.png') no-repeat center top;
+  height: 144px;
+}
+
+#header div:first-child div {
+  border: 0;
+  background: none;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 27px 0 0;
+  text-align: center;
+  width: 960px;
+}
+
+#header div:first-child div ul {
+  list-style: none;
+  float: left;
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 46px 0;
+  width: auto;
+}
+
+#header div:first-child div ul li {
+  float: left;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  width: 160px;
+}
+
+#header div:first-child div ul li a {
+  background: none;
+  color: #989282;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 0 1px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+#header div:first-child div ul li a:hover {
+  color: #ff8fb4;
+}
+
+#header div:first-child div ul li a:focus {
+  color: #ff8fb4;
+}
+
+#header div:first-child div a#logo {
+  float: left;
+  margin: 0 34px;
+}
+
+#header div {
+  background: url('../../assets/images/bg-yellow.png') repeat-x left bottom;
+  width: 100%;
+}
+
+#header > div > ul {
+  background: none;
+  height: auto;
+  margin: 0 auto;
+  padding: 22px 0 27px;
+  text-align: center;
+  width: 960px;
+}
+
+#header > div ul li {
+  display: inline;
+  float: none;
+  margin: 0 10px;
+}
+
+#header > div > ul li a {
+  color: #989282;
+  display: inline-block;
+  font-family: 'DeliusSwashCaps-Regular';
+  font-size: 20px;
+  font-weight: normal;
+  height: 41px;
+  line-height: 41px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 220px;
+}
+
+#header > div > ul li a:hover {
+  color: #ff8fb4;
+}
+
+#header > div > ul li a:focus {
+  color: #ff8fb4;
+}
+
+@media (max-width: 768px) {
+  #header div:first-child div {
+    width: 100%;
+    padding: 27px 10px 0;
+  }
+
+  #header div:first-child div ul {
+    padding: 0;
+  }
+
+  #header div:first-child div ul li {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  #header div:first-child div a#logo {
+    margin: 0;
+  }
+
+  #header > div > ul {
+    width: 100%;
+    padding: 22px 10px 27px;
+  }
+
+  #header > div > ul li a {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
